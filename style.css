@@ -1,0 +1,53 @@
+*{
+    font-family: Rubik,sans-serif;
+}
+body{
+    background-color:rgba(179, 199, 232, 0.5);
+
+}
+img{
+    height: 170px;
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow-clip-margin: content-box;
+
+}
+
+.box{
+    border-width: 1px;
+    border-radius: 10px;
+    height: 270px;
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+    padding:25px;
+    box-shadow: 5px 5px 5px rgb(169, 162, 162);
+}
+.title{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.price{
+    color:rgba(59,130,246,.5);
+    font-weight: bolder;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.price1{
+    color:gray;
+    font-weight: bolder;
+    font-size: larger;
+    margin: 15px;
+    text-decoration-line:line-through;
+}
+.off1{
+    border-radius:0.180rem;
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    text-align: center;
+    background-color: #1dd1a1;
+
+}
